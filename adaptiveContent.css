@@ -1,0 +1,33 @@
+a {text-decoration: none!important;}
+
+@media (min-width: 238px) {
+    .tg-w {min-width: 100%;}
+    #logoIcons img {
+        height: 6vh;
+    }
+    .tg-logoMenu {display: grid!important;}
+    #logo img {height: 20vh;}
+    #points img {height: 17vh;}
+    .tg-display {display: block;}
+    .point__titles {
+        height: -webkit-fill-available;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .point__titles a {
+        font-size: 3.5vh;
+    }
+}
+
+@media (min-width: 536px) {
+    #points img {height: 15vh;}
+    #points {margin-top: 12vh;}
+    .tg-w {min-width: 100%;}
+    #logoIcons img {
+        height: 5vh;
+    }
+    .tg-logoMenu {display: flex!important;}
+    #logo img {height: 20vh;}
+    .tg-display {display: flex;} 
+}

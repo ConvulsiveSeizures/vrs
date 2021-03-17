@@ -1,0 +1,81 @@
+a {text-decoration: none!important;}
+
+@media (min-width: 238px) {
+    .categoryImage {height: 8rem;}
+    .tg-w {min-width: 100%;}
+    #logoIcons img {
+        height: 5vh;
+    }
+    .tg-logoMenu {display: grid!important;}
+    #logo img {height: 18vh;}
+    /*
+    #points img {height: 17vh;}
+    .tg-display {display: block;}
+    .point__titles {
+        height: -webkit-fill-available;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+    .point__titles a {
+        font-size: 3.5vh;
+    }
+    */
+    #mapImage {
+        width: 90vw;
+    }
+    .category {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .categoryImage {width: 18vw!important; height: auto; padding-top: 0rem!important;}
+
+    #category__title {
+        height: -webkit-fill-available;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 536px) {
+    /*
+    #points img {height: 15vh;}
+    #points {margin-top: 12vh;}
+    */
+    .tg-w {min-width: 100%;}
+    #logoIcons img {
+        height: 4vh;
+    }
+    .tg-logoMenu {display: flex!important;}
+    #logo img {height: 18vh;}
+    #mapImage {
+        height: auto;
+        width: 80vw;
+    }
+    .categoryImage {width: 16vw!important; height: auto; padding-top: 0rem!important;}
+    /*.tg-display {display: flex;} */
+}
+
+@media (min-width: 746px) {
+    .categoryImage {width: 18vw!important; height: auto!important; margin-top: 2rem!important;}
+}
+
+@media (min-width: 912px) {
+    .categoryImage {height: 19vh!important; width: auto!important; margin-top: 2rem!important;}
+
+}
+
+@media (min-width: 1232px) {
+    .category {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+    .categoryImage {height: 23vh!important; width: auto!important; margin-top: 2rem!important;}
+    #mapImage {
+        height: auto;
+        width: 50vw;
+    }
+}
