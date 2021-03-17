@@ -1,0 +1,77 @@
+a {text-decoration: none!important;}
+
+@media (min-width: 238px) {
+    .gallery {
+        width: 90vw;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 20px;
+    }
+   
+    .gallery__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .galleryWrapper {
+        height: 66vh;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+    .tg-w {min-width: 100%;}
+    #logoIcons img {
+        height: 5vh;
+    }
+    .tg-logoMenu {display: grid!important;}
+    #logo img {height: 18vh;}
+    
+    figure {overflow: hidden;}
+    .ticket__title {z-index: 100}
+
+    figure img {
+        -moz-transition: all 0.7s ease-out;
+        -o-transition: all  0.7s ease-out;
+        -webkit-transition: all  0.7s ease-out;
+    }
+    
+    figure img:hover {
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -o-transform: scale(1.2);
+    }
+
+}
+
+@media (min-width: 536px) {
+    .gallery {
+        width: 86vw;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 25px;
+    }
+    /*
+    #points img {height: 15vh;}
+    #points {margin-top: 12vh;}
+    */
+    .tg-w {min-width: 100%;}
+    #logoIcons img {
+        height: 4vh;
+    }
+    .tg-logoMenu {display: flex!important;}
+    #logo img {height: 18vh;}
+    
+}
+
+@media (min-width: 846px) {
+    .gallery {
+        width: 80vw;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-gap: 25px;
+    }
+}
+
