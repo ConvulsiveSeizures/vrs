@@ -1,5 +1,12 @@
 a {text-decoration: none!important;}
 
+.point__titles a {
+    font-family: 'Arimo', sans-serif;
+    color: black!important;
+    word-break: break-word;
+    width: 66%;
+}
+
 @media (min-width: 238px) {
     .tg-w {min-width: 100%;}
     #logoIcons img {
@@ -21,6 +28,9 @@ a {text-decoration: none!important;}
 }
 
 @media (min-width: 536px) {
+    .point__titles a {
+        font-size: 16px;
+    }
     #points img {height: 15vh;}
     #points {margin-top: 12vh;}
     .tg-w {min-width: 100%;}
@@ -30,4 +40,21 @@ a {text-decoration: none!important;}
     .tg-logoMenu {display: flex!important;}
     #logo img {height: 20vh;}
     .tg-display {display: flex;} 
+}
+
+@media (min-width: 836px) {
+    .point__titles a {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1236px) {
+    .point__titles a {
+        font-size: 2vw;
+    }
+}
+@media (min-width: 1536px) {
+    .point__titles a {
+        font-size: 1.3vw;
+    }
 }

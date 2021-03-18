@@ -1,0 +1,100 @@
+a {text-decoration: none!important;}
+
+h1, h2, h3, h4, p {
+    color: white!important;
+    text-shadow: black 1px 2px 2px;
+}
+
+#ticketImgCont {overflow: hidden; display: -webkit-inline-box;}
+#ticketImgCont img{
+    -moz-transition: all 0.5s ease-out;
+    -o-transition: all  0.5s ease-out;
+    -webkit-transition: all  0.5s ease-out;
+}
+#ticketImgCont img:hover {
+    -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -o-transform: scale(1.2);
+}
+
+@media (min-width: 238px) {
+    .tg-ds {
+        display: block;
+    }
+    #ticketBlock {
+        padding-top: 5rem;
+    }
+    #ticketBlock img{
+        width: 80vw;
+        height: auto;
+    }
+    #ticketBlock p{
+        font-size: 3vw;
+        word-break: break-all;
+    }
+    body {overflow-y: scroll;}
+}
+
+@media (min-width: 438px) {
+    .ps-2 {padding-left: 4rem!important;}
+    #ticketBlock {
+        padding-top: 5rem;
+    }
+    #ticketBlock img{
+        width: 70vw;
+        height: auto;
+    }
+    body {overflow-y: scroll;}
+}
+
+@media (min-width: 838px) {
+    #ticketBlock p{
+        font-size: 1.6vw;
+        word-break: break-all;
+    }
+    #ticketBlock p{
+        font-size: 2vw;
+        word-break: break-all;
+    }
+    .tg-ds {
+        display: flex;
+    }
+    #ticketBlock {
+        display: flex;
+        padding-top: 5rem;
+    }
+    #ticketBlock img{
+        width: 50vw;
+        height: auto;
+    }
+    body {overflow-y: scroll;}
+}
+
+@media (min-width: 1046px) {
+    #ticketBlock p{
+        font-size: 1.4vw;
+        word-break: break-all;
+    }
+    #ticketBlock {
+        padding-top: 5rem;
+    }
+    #ticketBlock img{
+        width: 50vw;
+        height: auto;
+    }
+    body {overflow-y: hidden;}
+}
+
+@media (min-width: 1246px) {
+    
+    #ticketBlock {
+        padding-left: 4rem;
+        padding-top: 5rem;
+    }
+    #ticketBlock img{
+        width: 40vw;
+        height: auto;
+    }
+    body {overflow-y: hidden;}
+}
+

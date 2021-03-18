@@ -28,7 +28,8 @@ a {text-decoration: none!important;}
     #logo img {height: 18vh;}
     
     figure {overflow: hidden;}
-    .ticket__title {z-index: 100}
+    .ticket__title {z-index: 100;}
+    .ticket__title a { color: white!important; text-shadow: black 1px 2px 2px;}
 
     figure img {
         -moz-transition: all 0.7s ease-out;
