@@ -1,4 +1,23 @@
+#contacts {
+    display: none;
+    border-radius: 10px;
+    height: 800px;
+    background-color: white;
+    z-index: 1000;
+}
+#contacts.active {
+    display: flex;
+}
 
+#social li {
+    text-decoration: none!important;
+    display: block!important;
+}
+
+#contacts h3, h4, h1 {
+    text-shadow: unset!important;
+    color: black!important;
+}
 
 body {
     height: 100%;
